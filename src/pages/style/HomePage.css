@@ -1,0 +1,78 @@
+.Home_container {
+    width: 100%;    
+    height: max-content;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 26, 29);
+    padding-top: 50px;
+}
+
+.Home_elements {
+    width: 100%;
+    max-width: 450px;
+    background-image: linear-gradient(135deg,rgba(61,46,149,.35) 0%,#3D2E95 100%);
+    border-radius: 10px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+.Home_input{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(135deg,rgba(61,46,149) 0%,#3D2E95 100%);
+    color: white;
+    padding-right: 55px;
+    font-size: 1.1em;
+    padding-left: 50px;
+}
+
+.Home_form {
+    width: 100%;
+    position: relative;
+}
+
+.Home_select {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1.1em;
+    outline: none;
+
+}
+
+.Home_select_option{
+    color: black;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.Home_list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lupa{
+    padding-top: 8px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    border: none;
+    background-color: transparent;
+    color: rgba(184, 179, 179, 0.378);
+    font-size: 1.7em;
+    outline: none;
+
+}
+.lupa:hover{
+    color: rgba(184, 179, 179, 0.378);
+}
